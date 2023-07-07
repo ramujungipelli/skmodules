@@ -25,5 +25,7 @@ resource "azurerm_subnet" "subnet_name" {
   address_prefixes     = ["172.16.10.0/24"]
 
 }
-
+output "subnet_id" {
+    value = azurerm_subnet.subnet_name.id
+}
 

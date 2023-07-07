@@ -37,6 +37,7 @@ module "vnets" {
 
 }
 
+
 module "vms" {
   source                  = "./modules/vms"
   count                   = length(var.vm_name)

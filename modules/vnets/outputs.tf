@@ -10,6 +10,6 @@ output "subnet_name" {
   value = azurerm_subnet.subnet_name.name
 }
 
-output "subnet_id" {
-  value = azurerm_subnet.subnet_name.id
-}
+# output "subnet_id" {
+#   value = azurerm_subnet.subnet_name.id
+# }
