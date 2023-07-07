@@ -41,6 +41,6 @@ variable "storage_account_type" {
 
 }
 variable "public_ip_name" {
-
+  type = list(string)
 }
 
