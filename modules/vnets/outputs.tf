@@ -1,11 +1,3 @@
-# output "resource_group_name" {
-#   value = azurerm_resource_group.resource_group.name
-# }
-
-# output "resource_group_location" {
-#   value = azurerm_resource_group.resource_group.location
-# }
-
 output "nsg_name" {
   value= azurerm_network_security_group.hubnsg01.name
 }
@@ -15,9 +7,9 @@ output "virtual_network_name"{
 }
 
 output "subnet_name" {
-  value = azurerm_subnet.mainsubnet01.name
+  value = azurerm_subnet.subnet_name.name
 }
 
 output "subnet_id" {
-  value = azurerm_subnet.mainsubnet01.id
+  value = azurerm_subnet.subnet_name.id
 }

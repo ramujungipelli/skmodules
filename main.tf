@@ -46,7 +46,7 @@ module "vms" {
   virtual_network_name    = module.vnets.virtual_network_name
   subnet_name             = module.vnets.subnet_name
   subnet_id               = module.vnets.subnet_id
-  network_interface       = var.network_interface
+  network_interface       = var.network_interface[count.index]
   vm_name                 = var.vm_name[count.index]
   vm_size                 = var.vm_size
   username                = var.username

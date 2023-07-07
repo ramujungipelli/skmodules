@@ -25,7 +25,7 @@ variable "subnet_name" {
 
 }
 variable "network_interface" {
-
+  type = list(string)
 }
 variable "vm_name" {
   type = list(string)

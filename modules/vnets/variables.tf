@@ -1,11 +1,9 @@
 variable "resource_group_name" {
-  description = "This is used for resource group name"
+  
 }
-
 variable "resource_group_location" {
   
 }
-
 variable "nsg_name" {
   
 }
