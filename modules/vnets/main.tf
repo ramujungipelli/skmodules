@@ -2,6 +2,19 @@ resource "azurerm_network_security_group" "hubnsg01" {
   name                = var.nsg_name
   location            = var.resource_group_location
   resource_group_name = var.resource_group_name
+
+  security_rule {
+    name                       = "SSH_port"
+    priority                   = 100
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "Tcp"
+    source_port_range          = "22"
+    destination_port_range     = "22"
+    source_address_prefix      = "*"
+    destination_address_prefix = "*"
+  }
+
 }
 
 resource "azurerm_virtual_network" "mainhubvnet" {
