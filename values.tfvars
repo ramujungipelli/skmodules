@@ -12,4 +12,4 @@ vm_name = ["bamboo-server", "webserver01"]
 vm_size = "Standard_D2s_v3"
 username = "hcloud"
 storage_account_type = "Standard_LRS"
-public_ip_name = ["bamboo_public_ip", "webserver01_public_ip"]
+#public_ip_name = ["bamboo_public_ip", "webserver01_public_ip"]
