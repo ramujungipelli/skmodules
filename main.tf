@@ -52,5 +52,5 @@ module "vms" {
   vm_size                 = var.vm_size
   username                = var.username
   storage_account_type    = var.storage_account_type
-  public_ip_name          = var.public_ip_name[count.index]
+  #public_ip_name          = var.public_ip_name[count.index]
 }
