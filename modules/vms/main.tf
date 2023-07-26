@@ -36,7 +36,7 @@ resource "azurerm_linux_virtual_machine" "ubuntu_linux_server" { # reference nam
 
   admin_ssh_key {
     username   = var.username
-    public_key = file("C:/Users/koush/.ssh/id_rsa.pub")
+   # public_key = file("C:/Users/koush/.ssh/id_rsa.pub")
   }
 
   os_disk {
