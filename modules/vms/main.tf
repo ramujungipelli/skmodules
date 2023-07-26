@@ -34,10 +34,10 @@ resource "azurerm_linux_virtual_machine" "ubuntu_linux_server" { # reference nam
   ]
   disable_password_authentication = true
 
-  admin_ssh_key {
-    username   = var.username
+#  admin_ssh_key {
+ #   username   = var.username
    # public_key = file("C:/Users/koush/.ssh/id_rsa.pub")
-  }
+  #}
 
   os_disk {
     caching              = "ReadWrite"
