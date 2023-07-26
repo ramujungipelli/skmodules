@@ -36,6 +36,6 @@ output "username" {
 output "storage_account_type" {
   value = azurerm_linux_virtual_machine.ubuntu_linux_server.os_disk
 }
-output "public_ip_name"{
-value = azurerm_public_ip.public_ip.name
-}
+#output "public_ip_name"{
+#value = azurerm_public_ip.public_ip.name
+#}
