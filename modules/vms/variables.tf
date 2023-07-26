@@ -28,9 +28,9 @@ variable "username" {
 variable "storage_account_type" {
   
 }
-variable "public_ip_name"{
+#variable "public_ip_name"{
 
-}
+#}
 variable "subnet_id" {
   
 }
