@@ -40,7 +40,7 @@ variable "username" {
 variable "storage_account_type" {
 
 }
-variable "public_ip_name" {
-  type = list(string)
-}
+#variable "public_ip_name" {
+ # type = list(string)
+#}
 
