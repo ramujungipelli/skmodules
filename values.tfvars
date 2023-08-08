@@ -1,3 +1,7 @@
+client_id       = "101df146-ddca-4422-8bba-1597fd8c0b55"
+client_secret   = "lP38Q~V4NxqqErhOBQTxs.3.gMKc0RUx.OZksdBH"
+tenant_id       = "4b6f90b2-12cc-45f0-8527-da31b2259cca"
+subscription_id = "7b43c9f5-2b23-42c6-a7bf-d8e1cf4af406"
 resource_group_name = "hubrg01"
 resource_group_location = "Australia Central"
 nsg_name = "hubnsg01"
